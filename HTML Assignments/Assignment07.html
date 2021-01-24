@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Form</title>
+</head>
+<body>
+    <form action="https://www.example.com/login.php" method="POST">
+        <fieldset>
+            <legend>Your Details:</legend>
+        <p>
+            Name: <input type="text" name="name" size="20" maxlength="40" required />
+            <br />
+            <br />
+            Email: <input type="text" name="email" size="20" maxlength="40" required />
+        </p>
+    </fieldset>
+    <br />
+    <fieldset>
+        <legend>Your Review:</legend>
+        How did you hear about us? <select name="select" required>
+            <option>Google</option>
+            <option>Yahoo</option>
+            <option>Bingo</option>
+        </select>
+        <p>
+            Would you visit us again?<br />
+            <input type="radio" name="option" value="yes" checked> Yes
+            <input type="radio" name="option" value="NO"> NO
+            <input type="radio" name="option" value="maybe">May be
+        </p>
+        <p>
+            Comments:<br />
+            <textarea name="comments" rows="5" cols="27">Comments</textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="check" checked>Sign me up for Email Updates.
+        </p>
+        <p>
+            <input type="submit" value="Submit Review">
+            <p>
+            <input type="reset" value="Reset Form">
+            </p>
+        </p>
+    </fieldset>
+
+    </form>
+</body>
+</html>
