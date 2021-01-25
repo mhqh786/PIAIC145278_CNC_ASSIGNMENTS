@@ -1,4 +1,4 @@
-var myname = prompt("what is yoru name?");
+var myname = prompt("what is your name?");
 var dtOfBirth = prompt("Please Enter your Date of Birth ", "for example date is '26'");
 var mnOfBirth = prompt("Please Enter your Month of Birth ", "for example Month is '07'");
 var yrOfBirth = prompt("Please Enter your Year of Birth ", "for example Year is '1977'");
